@@ -3,3 +3,33 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Mulish', sans-serif;
+  background: #121214;
+  padding: 72px 104px;
+
+  display: grid;
+  justify-content: center;
+}
+
+.card {
+  background: #202024;
+  border: 2px solid #323238;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card h2 {
+  color:#E1E1E6;
+  font-size: 35px;
+  font-weight: 900;
+  padding: 24px 32px 0;
+}
+
+.card p {
+  color: #C4C4CC;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 24px 32px 32px;
+}
