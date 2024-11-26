@@ -60,7 +60,7 @@ main {
   padding: 2.4rem 3.2rem 3.2rem;
 }
 
-@media (width < 70em) {
+@media (width < 76em) {
   .card img {
     width: 100%;
   }
