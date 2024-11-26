@@ -59,3 +59,14 @@ main {
   font-weight: 600;
   padding: 2.4rem 3.2rem 3.2rem;
 }
+
+@media (width < 70em) {
+  .card img {
+    width: 100%;
+  }
+
+  main {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
