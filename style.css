@@ -4,10 +4,15 @@
   box-sizing: border-box;
 }
 
+:root {
+  font-size: 62.5%;
+}
+
 body {
   font-family: 'Mulish', sans-serif;
+  font-size: 1.6rem;
   background: #121214;
-  padding: 72px 104px;
+  padding: 7.2rem 10.4rem;
 
   display: grid;
   justify-content: center;
@@ -15,42 +20,42 @@ body {
 
 header h1 {
   color: #02799D;
-  font-size: 58px;
+  font-size: 5.8rem;
   font-weight: 900;
-  margin-bottom: 8px;
+  margin-bottom: 0.8rem;
 }
 
 header p {
   color: #E1E1E6;
-  font-size: 32px;
+  font-size: 3.2rem;
   font-weight: 600;
 }
 
 main {
-  margin-top: 63px;
+  margin-top: 6.3rem;
   display: grid;
-  grid-template-columns: repeat(3, 370px);
+  grid-template-columns: repeat(3, 37rem);
   place-content: center;
-  gap: 40px;
+  gap: 4rem;
 }
 
 .card {
   background: #202024;
   border: 2px solid #323238;
-  border-radius: 8px;
+  border-radius: 0.8rem;
   overflow: hidden;
 }
 
 .card h2 {
   color:#E1E1E6;
-  font-size: 35px;
+  font-size: 3.5rem;
   font-weight: 900;
-  padding: 24px 32px 0;
+  padding: 2.4rem 3.2rem 0;
 }
 
 .card p {
   color: #C4C4CC;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 600;
-  padding: 24px 32px 32px;
+  padding: 2.4rem 3.2rem 3.2rem;
 }
