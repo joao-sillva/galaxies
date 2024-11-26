@@ -13,6 +13,14 @@ body {
   justify-content: center;
 }
 
+main {
+  margin-top: 63px;
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+  place-content: center;
+  gap: 40px;
+}
+
 .card {
   background: #202024;
   border: 2px solid #323238;
